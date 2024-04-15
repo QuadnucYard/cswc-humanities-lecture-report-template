@@ -1,0 +1,17 @@
+[package]
+name = "cswc-humanities-lecture-report-template"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["QuadnucYard <https://github.com/QuadnucYard>"]
+license = "MIT"
+description = "Template of Humanities Lecture Listening Report for Chien-Shiung Wu College"
+repository = "https://github.com/QuadnucYard/cswc-humanities-lecture-report-template"
+keywords = ["template", "report", "lecture report"]
+categories = ["report"]
+compiler = "0.11.0"
+exclude = []
+
+# [template]
+# path = "template"
+# entrypoint = "main.typ"
+# thumbnail = "thumbnail.png"
