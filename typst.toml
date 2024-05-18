@@ -8,7 +8,7 @@ description = "Template of Humanities Lecture Listening Report for Chien-Shiung 
 repository = "https://github.com/QuadnucYard/cswc-humanities-lecture-report-template"
 keywords = ["template", "report", "lecture report"]
 categories = ["report"]
-compiler = "0.11.0"
+compiler = "0.11.1"
 exclude = []
 
 # [template]

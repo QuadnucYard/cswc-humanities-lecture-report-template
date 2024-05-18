@@ -57,21 +57,23 @@
   table(
     columns: (2.8cm, 1fr, 2.75cm, 1fr),
     inset: 1pt,
-    table.header(repeat: false, cb(height: 1.14cm)[学号+姓名],
+    table.header(
+      repeat: false,
+      cb(height: 1.14cm)[学号+姓名],
       cb(height: 1.14cm, stu),
       cb(height: 1.14cm)[时间地点],
       cb(height: 1.14cm, time_loc),
       cb(height: 1.28cm)[主讲人],
       cb(height: 1.28cm, speaker),
       cb(height: 1.28cm)[讲座题目],
-      cb(height: 1.28cm,  subject_w),
+      cb(height: 1.28cm, subject_w),
     ),
     cb(height: 17.77cm, body_desc),
     table.cell(colspan: 3, body),
     table.footer(
       repeat: false,
-      cb(height:2cm)[说明],
-      table.cell(colspan: 3, cb(height: 2cm, ha: left, remark))
+      cb(height: 2cm)[说明],
+      table.cell(colspan: 3, cb(height: 2cm, ha: left, remark)),
     ),
   )
 }
